@@ -3,8 +3,16 @@
 Created on 2015/3/14
 @author: Jimmy Liu
 '''
+
+import sys
+DATA_PATH = "f:\\mypython\\tushare"
+sys.path.append(DATA_PATH)  
+
 import unittest
 import tushare.stock.trading as fd
+
+
+
 
 class Test(unittest.TestCase):
 
