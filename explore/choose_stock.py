@@ -28,7 +28,8 @@ def decreasing_thr_judge(thr_value=0.2, str_stock_code="000651"):
     #print(close_price_min)
     decrease_value = (close_proce_cur-close_price_min)/close_price_min
     return decrease_value
-  
+
+
 
 if __name__ == '__main__':
     df_all_stock_basics = ts.get_stock_basics()
