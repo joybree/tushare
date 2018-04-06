@@ -49,7 +49,7 @@ if __name__ == '__main__':
         stock_code_all_Array2=np.append(stock_code_all_Array2,decrease_value)
         #print(stock_code_all_Array2)
             #stock_code_all_DataFrame.append(Series_str_stock_code.)
-    print("***")
+    #print("***")
     #print(stock_code_all_Array2)
     #print(pd.Series(stock_code_all_Array2))
     #df_all_stock_basics['decrease_value'] = pd.Series(stock_code_all_Array2)
