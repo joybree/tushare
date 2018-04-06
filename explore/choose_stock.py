@@ -50,8 +50,8 @@ if __name__ == '__main__':
         #print(stock_code_all_Array2)
             #stock_code_all_DataFrame.append(Series_str_stock_code.)
     print("***")
-    print(stock_code_all_Array2)
-    print(pd.Series(stock_code_all_Array2))
+    #print(stock_code_all_Array2)
+    #print(pd.Series(stock_code_all_Array2))
     #df_all_stock_basics['decrease_value'] = pd.Series(stock_code_all_Array2)
     df_all_stock_basics['decrease_value'] = stock_code_all_Array2
     df_all_stock_basics.to_csv(DATA_PATH+'decreasing_stock_info.csv',encoding='GBK')
